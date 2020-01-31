@@ -2,6 +2,7 @@
 const qURL = "https://newsapi.org/v2/top-headlines?q="
 var favorites =[]
 $("#btn").on("click", function(){
+    $("#result").empty()
     var topic = $("#search").val()
     var searchURL = qURL + topic + "&apikey=7bb52d1b01a14f94bc2f0c66cf04e18f"
 
@@ -21,7 +22,7 @@ $("#btn").on("click", function(){
             $("#result").append(newDiv)
         }
         $(document).ready(function(){
-            $("button").on("click", function(){
+            $(".follow").on("click", function(){
                 var favStory = {
                     link: $(this).data("link"),
                     title: $(this).data("title"),

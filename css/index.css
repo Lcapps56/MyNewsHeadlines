@@ -37,6 +37,14 @@ body{
     border: solid 1px black;
     margin: 5px;
 }
+.favTitle{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.favTitle:hover{
+    text-decoration: underline;
+}
 
 #stuffs{
     padding: 0px;
