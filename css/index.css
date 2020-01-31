@@ -1,0 +1,78 @@
+body{
+    margin: 0px; 
+    padding: 0px;
+}
+#searchbox{
+  text-align: center;
+  padding: 15px;
+  border: solid 1px black;  
+  margin-bottom: 20px;
+  color: white;
+  font-weight: bolder;
+  font-size: 25px;
+  background: black;
+}
+#searchbox h1{
+    margin: 0px;    
+}
+#rest{
+    padding: 0px 50px;
+}
+#side{
+    width: 25%;
+    padding: 0px;
+    border: solid black 1px;
+    display: inline-block;  
+    /* background: rgb(230, 207, 177); */
+}
+#side h1{
+    background: black;
+    padding: 15px 20px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+.favBox{
+    padding: 10px;
+    border: solid 1px black;
+    margin: 5px;
+}
+
+#stuffs{
+    padding: 0px;
+    border: solid 1px black;
+    width: 70%;
+    float: right;
+    text-align: center;
+    /* background: rgb(230, 207, 177); */
+}
+#stuffs h1{
+    padding: 15px;
+    margin: 0px;
+    color: white;
+    background: black;
+}
+#result{
+
+}
+.box{
+    border: solid black 1px;
+    padding: 8px;
+    text-align: left;
+    margin: 5px;
+    /* background: white; */
+}
+
+.title{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.title:hover{
+    text-decoration: underline;
+}
+.date{
+    display: inline-block;
+    margin-right: 15px;
+}
